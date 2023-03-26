@@ -1,0 +1,48 @@
+ body {
+     background-color: #67e154;
+     color: #fff;
+ }
+
+ body,
+ html {
+     height: 100%;
+     margin: 0;
+     padding: 5px;
+     font-family: sans-serif;
+ }
+
+ h1 {
+     text-align: center;
+ }
+
+ .container {
+     display: flex;
+     flex-flow: column wrap;
+     margin: auto;
+     justify-content: flex-start;
+     align-items: center;
+ }
+
+ .source {
+     margin-top: -33px;
+     display: block;
+     font-size: 40%;
+     color: #ccc;
+     padding-top: 13px;
+     padding-bottom: 5px;
+     text-transform: uppercase;
+ }
+
+ a {
+     text-decoration: none;
+     color: #000;
+     font-size: 80%;
+ }
+
+ .imageContainer img {
+     margin: 0 auto;
+     width: 300px;
+     height: 200px;
+     max-width: 300px;
+     max-height: 200px;
+ }
